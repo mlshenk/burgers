@@ -1,8 +1,3 @@
-USE burgers_db;
-
-INSERT INTO burgers (burger_name, devoured)
-VALUES 
-("Royal Red Robin", true), 
-("Double Quarter Pounder", true), 
-("Whataburger Patty Melt", false), 
-("The Grilled Cheesus", false)
+INSERT INTO burgers (burger_name, devoured) VALUES ("Cheeseburger", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Bacon Burger", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Double Bacon Cheeseburger", false);
